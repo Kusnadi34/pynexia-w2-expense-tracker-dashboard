@@ -12,7 +12,7 @@ import Profile from './pages/Profile.jsx';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* Public Route */}
         <Route path="/login" element={<Login />} />
@@ -29,6 +29,6 @@ export default function App() {
           <Route path="profile" element={<Profile />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
