@@ -1,16 +1,24 @@
-# React + Vite
+# Expense Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:** [https://kusnadi34.github.io/pynexia-w2-expense-tracker-dashboard/](https://kusnadi34.github.io/pynexia-w2-expense-tracker-dashboard/)
 
-Currently, two official plugins are available:
+A comprehensive personal finance dashboard built for the Pynexia Tech Frontend Internship assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- **Authentication**: Login, Register, and Profile Management (using LocalStorage).
+- **Dashboard**: KPI cards, Budget vs Actual charts, and Recent Transactions.
+- **Transactions**: Full CRUD operations, search, filter, and CSV Export.
+- **Budgeting**: Set limits, warnings, and 50/30/20 guidelines.
+- **Theming**: Full Light/Dark mode support.
 
-## React Compiler
+## Tech Stack
+- React 18 + Vite
+- Recharts (Data Visualization)
+- React Router DOM
+- Lucide React (Icons)
+- Vanilla CSS (Theming via CSS Variables)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+1. Clone this repo: `git clone https://github.com/USERNAME/expense-tracker-dashboard.git`
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
